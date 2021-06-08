@@ -17,6 +17,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+domain: ducphamtv.github.io
+url: https://ducphamtv.github.io
 
 locale: "en-US"
 title: DucPhamTV blogs
@@ -34,8 +36,10 @@ search: true
 
 # Build settings
 theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 minimal_mistakes_skin    : "sunrise"
 # Exclude from processing.
