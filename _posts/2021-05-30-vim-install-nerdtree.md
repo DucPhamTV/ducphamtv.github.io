@@ -1,8 +1,3 @@
----
-layout: post
-author: DucPhamTV
-topic: vim
----
 The first thing I'd like to make my Vim IDe feel like an IDE is a sidebar on the right to browse the directory porject
 source code. 
 
