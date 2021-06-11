@@ -42,6 +42,8 @@ plugins:
   - jekyll-include-cache
 
 minimal_mistakes_skin    : "sunrise"
+
+include: ["_pages"]
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -73,4 +75,24 @@ defaults:
       share: true
       related: true
       show_date: true
+      author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+author:
+  name: "Duc Pham"
+  avatar: "/assets/images/ducphamtv.jpg"
+  bio: "I am a software developer." # Note: Markdown is allowed
+  location: "Ho Chi Minh city"
+  links:
+    - label: "Github pages"
+      icon: "fas fa-fw fa-link"
+      url: "/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/DucPhamTV"
 
